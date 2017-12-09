@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+$marsala: #721B0D;
+$marsala-L: #BD5347;
+
+.react-gameoflife {
+  font-family: 'Merriweather', serif;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,.1);
+  margin: 3rem;
+  padding: 4rem;
+  min-width: 33.875rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  float: left;
+
+  a,
+  a:active,
+  a:hover,
+  a:link,
+  a:visited {
+    color: #fff;
+  }
+
+  canvas {
+    border: 1px solid #e4e4e4;
+  }
+}
