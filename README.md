@@ -23,3 +23,5 @@ Where:
 |`gliderGun`| print Glider Gun (the world size will be adjusted to fit the Glider Gun) |
 
 # Example
+
+[Glider Gun example](http://codepen.io/filipemeneses/pen/YqByjG)
