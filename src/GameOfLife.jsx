@@ -198,7 +198,7 @@ class GameOfLife extends React.Component {
       ctx.fillRect(x, y, w, h);
     }
     function square(x, y) {
-      ctx.fillStyle = "#721b0d";
+      ctx.fillStyle = "#BD5347";
       ctx.fillRect(1 + x * squareSize, 1 + y * squareSize, squareSize - 1, squareSize - 1);
     }
   }

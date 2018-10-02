@@ -6,12 +6,12 @@ $marsala-L: #BD5347;
 .react-gameoflife {
   font-family: 'Merriweather', serif;
   transform: translateY(-5px);
-  box-shadow: 0 15px 25px rgba(0,0,0,.1);
-  margin: 3rem;
-  padding: 4rem;
+  box-shadow: 0 15px 25px rgba(0,0,0,.4);
+  margin: 3.2rem;
+  padding: 4.2rem;
   min-width: 33.875rem;
   box-sizing: border-box;
-  background-color: $marsala;
+  // background-color: $marsala-L;
   float: left;
 
   a,
@@ -23,6 +23,6 @@ $marsala-L: #BD5347;
   }
 
   canvas {
-    border: 1px solid $marsala-L;
+    border: 1px solid $marsala;
   }
 }

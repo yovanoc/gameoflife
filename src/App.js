@@ -4,7 +4,7 @@ import GameOfLife from './GameOfLife';
 class App extends Component {
   render() {
     return (
-      <GameOfLife worldSize={180} squareSize={10} generationSpeed={5} population={16000} gliderGun={false}/>
+      <GameOfLife worldSize={35} squareSize={45} generationSpeed={5} population={350} gliderGun={false}/>
     );
   }
 }
