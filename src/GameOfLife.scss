@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 $marsala: #721B0D;
 $marsala-L: #BD5347;
 
@@ -10,7 +11,7 @@ $marsala-L: #BD5347;
   padding: 4rem;
   min-width: 33.875rem;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: $marsala;
   float: left;
 
   a,
@@ -22,6 +23,6 @@ $marsala-L: #BD5347;
   }
 
   canvas {
-    border: 1px solid #e4e4e4;
+    border: 1px solid $marsala-L;
   }
 }

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import GameOfLife from './GameOfLife';
-import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <GameOfLife worldSize={1} squareSize={5} generationSpeed={20} population={0} gliderGun={true}/>
+      <GameOfLife worldSize={180} squareSize={10} generationSpeed={5} population={16000} gliderGun={false}/>
     );
   }
 }
